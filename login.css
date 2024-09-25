@@ -1,0 +1,128 @@
+
+
+body {
+    font-family: 'Taviraj', sans-serif;
+    background-color: #ff6200;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: gray;
+}
+
+.btn-outline-light {
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: gray;
+    border-color: #fff;
+}
+
+.social-link {
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: border-color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background-color: #333;
+    border-color: black;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.nav-tabs .nav-link {
+    color: #000; 
+    background-color: #ADD8E6; 
+    border: none;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #87CEFA;
+    color: #000; 
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #87CEFA;
+    color: #000;
+}
+
+.form-control {
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1);
+    color: #000; 
+    border: 1px solid #fff;
+}
+
+.form-control::placeholder {
+    color: #666; 
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, .2);
+    color: #000;
+}
+
+label {
+    color: #000; 
+}
+
+.btn-primary, .btn-success {
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    color: #fff; 
+}
+
+.btn-primary {
+    background-color: #0C57F6;
+}
+
+.btn-primary:hover {
+    background-color: #1161ee;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.form-check-label {
+    color: #000; 
+}
+
+footer {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    color: #fff; 
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+}

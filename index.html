@@ -4,145 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chaichana</title> <!--ชัยชนะ เจิดนภาพันธ์-->
+    <!-- ลิงก์ CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- ลิงก์ Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- ลิงก์ Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- ลิงก์ฟอนต์ -->
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  
+</head>
 <body>
-  <!--Start Navbar-->
-  <div class="navbar">
-    <div class="navbar-left">
-      <a href="index.html"><img src="https://openhouse.bu.ac.th/_nuxt/logo_bu.B5Fc9ReW.png" alt=""></a>
-    </div>
-    <div class="navbar-center">
-        <a href="#index-section">Home</a>
-        <a href="#highlight-section">Highlight</a>
-        <a href="#faq-section">FAQ</a>
-        <a href="#map-section">Map</a>
-    </div>
-    <div class="navbar-right">
-        <a href="login.html">Sign in</a>
-    </div>
-
-  </div>
-  <!--End Navbar-->
-  
-  <!--Start Slider-->
-  <div id="index-section">
-  <div class="slider">
-    <div class="slides">
-        <img src="https://openhouse.bu.ac.th/contents/banner/banner_2.jpg" alt="Slide 1">
-        <img src="https://openhouse.bu.ac.th/contents/banner/banner_3.jpg" alt="Slide 2">
-    </div>
-  </div>
-  <!--End Slider-->
-  
-  <!--Text Animation-->
-  <div class="container1">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3 class="animate-charcter"> LET'S PLAY<br>
-
-          LIKE A PRO<br>
-          
-          มาลองเล่นให้เป็นโปร</h3>
+    <!--Start Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://openhouse.bu.ac.th/_nuxt/logo_bu.B5Fc9ReW.png" alt="" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#index-section">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#highlight-section">Highlight</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq-section">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#map-section">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light ms-3" href="login.html">Sign in</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!--Text Animation-->
+    </nav>
+    <!--End Navbar-->
 
-  <!--Start Highlight-->
+    <!-- ส่วนอื่น ๆ ของหน้าเว็บ -->
+    <!--Start Slider-->
+    <div id="index-section">
+        <div class="slider">
+            <div class="slides">
+                <img src="https://openhouse.bu.ac.th/contents/banner/banner_2.jpg" alt="Slide 1">
+                <img src="https://openhouse.bu.ac.th/contents/banner/banner_3.jpg" alt="Slide 2">
+            </div>
+        </div>
+    </div>
+    <!--End Slider-->
+
+    <!--Text Animation-->
+    <div class="container1 text-center">
+        <h3 class="animate-charcter"> LET'S PLAY<br> LIKE A PRO<br>มาลองเล่นให้เป็นโปร</h3>
+    </div>
+    <!--Text Animation-->
+
+    <!--Start Highlight-->
     <div id="highlight-section">
-      <div class="container-card">
-          <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/1.jpg" alt="Highlight 1">
-          <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/2.jpg" alt="Highlight 2">
-          <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/3.jpg" alt="Highlight 3">
-          <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/4.jpg" alt="Highlight 4">
-          <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/5.jpg" alt="Highlight 5">
-          <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/6.jpg" alt="Highlight 6">
+        <div class="container-card">
+            <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/1.jpg" alt="Highlight 1">
+            <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/2.jpg" alt="Highlight 2">
+            <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/3.jpg" alt="Highlight 3">
+            <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/4.jpg" alt="Highlight 4">
+            <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/5.jpg" alt="Highlight 5">
+            <img class="img-main" src="https://openhouse.bu.ac.th/contents/highlights/6.jpg" alt="Highlight 6">
         </div>
-  </div>
-  <!--End Highlight-->
+    </div>
+    <!--End Highlight-->
 
-  <!--Start FAQ-->
-  <div id="faq-section">
-    <div class="container-faq">
-        <div class="color blue">งาน BU Open House 2024 จัดขึ้นเมื่อไหร่ และจัดที่ไหน?</div>
-        <div class="color blue">เลือกลงทะเบียนเข้าร่วมกิจกรรมได้ที่คณะ?</div>
-        <div class="color blue">กิจกรรมคณะต่าง ๆ เริ่มตั้งแต่กี่โมงและสิ้นสุดเมื่อไหร่?</div>
-        <div class="color blue">เข้าร่วมงานต้องลงทะเบียนไหม?</div>
-        <div class="color blue">การแต่งกาย ใส่ชุดอะไรไปดี?</div>
-        <div class="color blue">ทุกคณะมีเปิดบ้านทุกวันไหม? และทั้ง 3 วันมีกิจกรรมเหมือนกันไหม?</div>
+    <!--Start FAQ-->
+    <div id="faq-section">
+        <div class="container-faq">
+            <div class="color blue">งาน BU Open House 2024 จัดขึ้นเมื่อไหร่ และจัดที่ไหน?</div>
+            <div class="color blue">เลือกลงทะเบียนเข้าร่วมกิจกรรมได้ที่คณะ?</div>
+            <div class="color blue">กิจกรรมคณะต่าง ๆ เริ่มตั้งแต่กี่โมงและสิ้นสุดเมื่อไหร่?</div>
+            <div class="color blue">เข้าร่วมงานต้องลงทะเบียนไหม?</div>
+            <div class="color blue">การแต่งกาย ใส่ชุดอะไรไปดี?</div>
+            <div class="color blue">ทุกคณะมีเปิดบ้านทุกวันไหม? และทั้ง 3 วันมีกิจกรรมเหมือนกันไหม?</div>
+        </div>
+    </div>
+    <!--End FAQ-->
+    <!--Start MAP-->
+    <div id="map-section">
+      <div class="container-map">
+        <div class="container8-map-left">
+            <h1>การเดินทางมา BU</h1>
+            <h4>รถเมย์</h4>
+            <p>สาย 39 ปอ.510 / ปอ.520</p>
+            <h4>รถตู้ สาย ต,85-93(ฝั่งเกาะพญาไท)</h4>
+            <ul>
+                <li>อนุสาวรีย์ชัยสมรภูมิ-มธ. (ศูนย์รังสิต) - ใกล้ BTS อนุสาวรีย์ชัยสมรภูมิ</li>
+                <li>สาย ต.118-1 หมอชิต-มธ. (ศูนย์รังสิต)</li>
+                <li>สาย 1008 (อยู่ตรงข้างฟิวเจอร์พาร์ค รังสิต)</li>
+                <li>วงรังสิต-มธ. (ศูนย์รังสิต)</li>
+            </ul>
+            <h4>รถไฟฟ้าสายสีเขียว(BTS)</h4>
+            <ul>
+                <li>ลงสถานีหมอชิต (ทางออก 3,4) ต่อรถตู้สาย ต. 118-1</li>
+                <li>ลงสถานีอนุสาวรีย์ชัยสมรภูมิ (ทางออก 3,4) ต่อรถตู้สาย ต.85-93 (ฝั่งเกาะพญาไท)</li>
+                <li>ลงสถานีแยกคปอ. (ทางออก 1,3) ต่อรถเมล์ สาย 39,520</li>
+            </ul>
+            <h4>รถไฟฟ้าสายสีน้ำเงิน(MRT)</h4>
+            <ul>
+                <li>ลงสถานีจตุจักร (ทางออก 3,4) ต่อรถตู้สาย ต.118-1 หมอชิต-มธ. (ศูนย์รังสิต)</li>
+            </ul>
+            <h4>รถไฟฟ้าสายสีแดง(SRT)</h4>
+            <ul>
+                <li>ลงสถานี รังสิต ทางออกที่ 3 ต่อรถสองแถวสาย รังสิต-จารุศร</li>
+            </ul>
+        </div>
+        <div class="container-map-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.635489989523!2d100.60990561526141!3d14.0396079943404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e280728e16f629%3A0xdadc26839284214d!2sBangkok+University+Rangsit+Campus!5e0!3m2!1sen!2sth!4v1522737188013" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" data-ruffle-polyfilled=""></iframe>
+        </div>
     </div>
     </div>
-  <!--End FAQ-->
+    <!--End MAP-->
 
-  <!--Start MAP-->
-  <div id="map-section">
-    <div class="container-map">
-      <div class="container8-map-left">
-          <h1>การเดินทางมา BU</h1>
-          <h4>รถเมย์</h4>
-          <p>สาย 39 ปอ.510 / ปอ.520</p>
-          <h4>รถตู้ สาย ต,85-93(ฝั่งเกาะพญาไท)</h4>
-          <ul>
-              <li>อนุสาวรีย์ชัยสมรภูมิ-มธ. (ศูนย์รังสิต) - ใกล้ BTS อนุสาวรีย์ชัยสมรภูมิ</li>
-              <li>สาย ต.118-1 หมอชิต-มธ. (ศูนย์รังสิต)</li>
-              <li>สาย 1008 (อยู่ตรงข้างฟิวเจอร์พาร์ค รังสิต)</li>
-              <li>วงรังสิต-มธ. (ศูนย์รังสิต)</li>
-          </ul>
-          <h4>รถไฟฟ้าสายสีเขียว(BTS)</h4>
-          <ul>
-              <li>ลงสถานีหมอชิต (ทางออก 3,4) ต่อรถตู้สาย ต. 118-1</li>
-              <li>ลงสถานีอนุสาวรีย์ชัยสมรภูมิ (ทางออก 3,4) ต่อรถตู้สาย ต.85-93 (ฝั่งเกาะพญาไท)</li>
-              <li>ลงสถานีแยกคปอ. (ทางออก 1,3) ต่อรถเมล์ สาย 39,520</li>
-          </ul>
-          <h4>รถไฟฟ้าสายสีน้ำเงิน(MRT)</h4>
-          <ul>
-              <li>ลงสถานีจตุจักร (ทางออก 3,4) ต่อรถตู้สาย ต.118-1 หมอชิต-มธ. (ศูนย์รังสิต)</li>
-          </ul>
-          <h4>รถไฟฟ้าสายสีแดง(SRT)</h4>
-          <ul>
-              <li>ลงสถานี รังสิต ทางออกที่ 3 ต่อรถสองแถวสาย รังสิต-จารุศร</li>
-          </ul>
-      </div>
-      <div class="container-map-right">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.635489989523!2d100.60990561526141!3d14.0396079943404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e280728e16f629%3A0xdadc26839284214d!2sBangkok+University+Rangsit+Campus!5e0!3m2!1sen!2sth!4v1522737188013" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" data-ruffle-polyfilled=""></iframe>
-      </div>
-  </div>
-  </div>
-  <!--End MAP-->
-
-  <!--Start Footer-->
-  <footer class="col-md-12 py-5">
-    <div class="container">
-        <div class="row text-white">
-            <div class="col-md-6">
-                <div>
-                    <div>9, 1 Phahonyothin Rd, Khlong Nueng,</div>
-                    <div>Khlong Luang, Pathum Thani 12120</div>
+    <!--Start Footer-->
+    <footer class="py-5 bg-black text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>9, 1 Phahonyothin Rd, Khlong Nueng,<br>Khlong Luang, Pathum Thani 12120</div>
+                    <br>
+                    <div>© 2024 by Bangkok University</div>
                 </div>
-                <br>
-                <div>© 2024 by Bangkok University</div>
-            </div>
-
-            <div class="col-md-6 d-flex row-4 justify-content-end align-items-center">
-              <a href="https://www.facebook.com/bangkokuniversity" target="_blank" class="d-flex align-items-center mx-2 no-underline social-link">
-                  <i class="fab fa-facebook fa-2x text-white"></i>
-                  <span class="ml-2"> Bangkok University</span>
-              </a>
-              <a href="https://www.instagram.com/bangkok_bu/" target="_blank" class="d-flex align-items-center mx-2 no-underline social-link">
-                  <i class="fab fa-instagram fa-2x text-white"></i>
-                  <span class="ml-2"> @bangkok_BU</span>
-                </a>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <a href="https://www.facebook.com/bangkokuniversity" target="_blank" class="d-flex align-items-center mx-2 social-link">
+                        <i class="fab fa-facebook fa-2x text-white"></i>
+                        <span class="ms-2"> Bangkok University</span>
+                    </a>
+                    <a href="https://www.instagram.com/bangkok_bu/" target="_blank" class="d-flex align-items-center mx-2 social-link">
+                        <i class="fab fa-instagram fa-2x text-white"></i>
+                        <span class="ms-2"> @bangkok_BU</span>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-  </footer>
-  <!--End Footer-->
-  </body>
+    </footer>
+    <!--End Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
